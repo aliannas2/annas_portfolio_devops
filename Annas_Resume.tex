@@ -1,0 +1,190 @@
+\documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
+
+\geometry{left=1.25cm,right=1.25cm,top=1.5cm,bottom=1.5cm}
+
+\usepackage{paracol}
+
+\ifxetexorluatex
+  \setmainfont{Roboto Slab}
+  \setsansfont{Lato}
+  \renewcommand{\familydefault}{\sfdefault}
+\else
+  \usepackage[rm]{roboto}
+  \usepackage[defaultsans]{lato}
+  \renewcommand{\familydefault}{\sfdefault}
+\fi
+
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\definecolor{DarkPastelRed}{HTML}{450808}
+\definecolor{PastelRed}{HTML}{8F0D0D}
+\definecolor{GoldenEarth}{HTML}{E7D192}
+\colorlet{name}{black}
+\colorlet{tagline}{PastelRed}
+\colorlet{heading}{DarkPastelRed}
+\colorlet{headingrule}{GoldenEarth}
+\colorlet{subheading}{PastelRed}
+\colorlet{accent}{PastelRed}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\renewcommand{\namefont}{\Huge\rmfamily\bfseries}
+\renewcommand{\personalinfofont}{\footnotesize}
+\renewcommand{\cvsectionfont}{\LARGE\rmfamily\bfseries}
+\renewcommand{\cvsubsectionfont}{\large\bfseries}
+
+\renewcommand{\cvItemMarker}{{\small\textbullet}}
+\renewcommand{\cvRatingMarker}{\faCircle}
+
+\begin{document}
+\name{Annas Ali}
+\tagline{Senior DevOps Engineer | AWS Certified Professional \\ {\small\textcolor{black}{Results-driven DevOps Engineer with 5+ years architecting and automating cloud infrastructure. Proven expertise in AWS, Terraform, Kubernetes, and CI/CD pipeline optimization.}}}
+
+\personalinfo{
+  \email{ali.annus02@gmail.com}
+  \phone{+923018678867}
+  \location{Lahore, Pakistan}
+  \linkedin{https://www.linkedin.com/in/annas-ali-71842a162/}
+  \github{https://github.com/aliannus2}
+}
+
+\makecvheader
+
+\cvsection{Experience}
+
+
+\cvevent{DevOps Engineer}{Emumba}{December 2025 -- Ongoing}{Remote}
+\begin{itemize}
+    \item Architecting serverless ETL infrastructure using \textbf{AWS Glue Crawlers} and \textbf{Amazon Redshift}, automating data cataloging and warehousing workflows.
+    \item Executing seamless \textbf{data migration} strategies to Redshift, ensuring data integrity and minimizing downtime through optimized pipeline configurations.
+    \item Enhancing system observability and monitoring capabilities by implementing Datadog, creating custom dashboards, and configuring actionable alerts for high-priority incidents.
+    \item Managing and orchestrating containerized workloads on Kubernetes, optimizing cluster performance and resource utilization.
+\end{itemize}
+
+\divider
+
+\cvevent{Senior DevOps Engineer}{TCP Software}{09/2023 - 12/2025 }{Lahore}
+\begin{itemize}
+    \item Automated infrastructure and application delivery using Terraform, Jenkins, and AWS CodeBuild to enhance operational consistency.
+    \item Implemented Blue/Green deployment strategies on AWS, ensuring seamless, risk-free application updates.
+    \item Streamlined containerized application deployments on Amazon ECS clusters to improve scalability and management.
+    \item Optimized CI/CD performance by 40\% through Jenkins master-slave architecture with EC2 and Fargate to distribute load-intensive tasks and prevent high-load bottlenecks.
+    \item Proactively monitored application and infrastructure performance using New Relic to identify and resolve critical issues.
+    \item Optimized MSSQL (RDS/EC2) health and performance through automated backups, indexing strategies, and database partitioning.
+\end{itemize}
+
+\divider
+
+\cvevent{DevOps Engineer}{TkXel}{07/2021 - 08/2023}{Lahore}
+\begin{itemize}
+    \item Configured, managed, and monitored AWS services (EC2, S3, RDS, DynamoDB, Lambda) ensuring efficient cloud operations.
+    \item Developed and deployed Docker containers for applications built with Node, Next.js, Angular, Flask, PHP, and Laravel.
+    \item Implemented infrastructure as code using Terraform for multi-region deployment and environment migration.
+    \item Designed CI/CD pipelines using Jenkins, GitHub Actions, GitLab CI/CD, and AWS CodePipeline, automating build and deployment processes.
+    \item Managed scalable Kubernetes clusters, ensuring high availability and performance.
+    \item Standardized deployment of resources like Datadog, ALB Controller, and Autoscaler using Helm charts.
+    \item Implemented GitOps for efficient operations and configuration management using ArgoCD and Terraform Cloud.
+    \item Managed databases (MySQL, PostgreSQL, DynamoDB), handling user management, migrations, and multi-region replicas.
+    \item Configured monitoring tools (CloudWatch, Datadog, New Relic, Opsgenie) to monitor performance and set up alerts.
+\end{itemize}
+
+\divider
+
+\pagebreak
+
+\cvsection{Projects}
+
+\vspace{10pt}
+
+\cvevent{Kubernetes Infrastructure Deployment Standardization}{}{}{}
+\begin{itemize}
+    \item Orchestrated the deployment of Amazon EKS clusters using Terraform, creating a scalable container orchestration platform.
+    \item Standardized application deployment using Helm Charts and Argo CD, ensuring consistency across different environments.
+    \item Utilized Terraform Helm module for managing Helm chart configurations, enabling unified infrastructure and application deployment.
+    \item Integrated Pod and Node Autoscalers for dynamic scaling based on system demand.
+    \item Configured AWS CodePipeline for automated CI/CD processes, enhancing build and deployment efficiency.
+    \item Implemented Istio service mesh for advanced microservices management, security policy enforcement, and observability.
+    \item Integrated monitoring and security packs including Datadog, ELK Stack, and Stackrox into Kubernetes clusters for enhanced logging, monitoring, and security.
+\end{itemize}
+
+
+\vspace{10pt}
+
+\cvevent{Cross-Account AWS Glue Data Pipeline Implementation}{}{}{}
+\begin{itemize}
+    \item Employed Terraform to orchestrate the deployment of a secure, cross-account data pipeline infrastructure within AWS.
+    \item Managed S3 buckets for the efficient handling of Parquet formatted data, ensuring optimal storage solutions.
+    \item Configured AWS Glue Crawlers for automated data classification and cataloging, streamlining the data management process.
+    \item Designed and executed AWS Glue ETL jobs to transform data for enhanced analytics readiness.
+    \item Implemented stringent IAM policies for cross-account security, enforcing best practices in access control and compliance.
+\end{itemize}
+
+\vspace{10pt}
+
+\cvevent{Serverless Jenkins Setup on AWS Fargate}{}{}{}
+\begin{itemize}
+    \item Configured Jenkins on AWS Fargate using Terraform for infrastructure as code (IaC)
+    \item Utilized ECS Fargate plugin to manage Docker-based build agents.
+    \item Eliminated server management overhead, achieving operational efficiency with automated scaling and updates.
+    \item Enhanced reliability and fault tolerance with a serverless architecture, implementing AWS services like Route 53, CloudTrail, CloudWatch, SNS, and AWS Backup for comprehensive monitoring and disaster recovery.
+\end{itemize}
+
+\cvevent{Temporary Elevated Access Management with IAM Identity Center (TEAM)}{}{}{}
+\begin{itemize}
+    \item Designed and implemented a secure temporary elevated access management solution by integrating Okta as the identity provider with AWS IAM Identity Center.
+    \item Configured IAM Identity Center permission sets to define granular access controls for various AWS roles and accounts.
+    \item Developed an automated workflow for requesting, approving, and revoking temporary elevated access, potentially utilizing AWS Step Functions and Lambda.
+    \item Leveraged Okta's capabilities for user provisioning, group management, and enforcing multi-factor authentication (MFA) for AWS access.
+    \item Implemented comprehensive logging and auditing of temporary access sessions using AWS CloudTrail and CloudWatch for security monitoring and compliance.
+    \item Ensured seamless user experience for requesting and activating temporary permissions via a user-friendly interface or existing ticketing systems.
+    \item Documented the solution architecture, configuration steps, and operational procedures for ongoing maintenance and support.
+\end{itemize}
+
+
+\pagebreak
+
+\cvsection{Certifications}
+
+\cvcertification{aws-logo-icon.png}{AWS Certified Professional DevOps Engineer}{25-Feb-2024 to 25-Feb-2027}{\href{https://cp.certmetrics.com/amazon/en/public/verify/credential/7b03db94c5ce4d799701ae4b51354cb4}{Validation URL}}
+
+\divider
+
+\cvcertification{Linux_Foundation.png}{Certified Kubernetes Administrator}{09-July-2023 to 09-July-2026}{\href{https://www.credly.com/badges/46dd132a-e405-4f5c-bb5e-2f93a095189f/linked_in?t=rxlgy5}{Validation URL}}
+\divider
+
+
+\cvcertification{hashicorp-icon.png}{Hashicorp Certified - Terraform Associate}{}{\href{https://www.credly.com/badges/3820761f-133b-4c2f-8ff3-95dc032ebcb7/linked_in}{Validation URL}}
+
+\medskip
+
+\cvsection{Education}
+
+\cvevent{B.Sc.\ in Computer Engineering}{Ghulam Ishaq Khan Institute (GIKI)}{09/2017 -- 05/2021}{}
+
+\cvsection{Skills}
+
+\begin{itemize}
+    \item \textbf{AWS Services:} EC2, S3, RDS, DynamoDB, Lambda, API Gateway, SNS, SQS, Glue
+    \item \textbf{CI/CD:} Jenkins, AWS CodePipeline, GitHub Actions, Bitbucket Pipelines, ArgoCD
+    \item \textbf{Networking:} DNS, OSI Model, AWS VPC, AWS Load Balancers, Transit Gateways, VPC Peering, VPN Setup
+    \item \textbf{Scripting:} Python, Bash Scripting, Powershell Scripting, Ansible
+    \item \textbf{IAC (Infrastructure as Code):} AWS CloudFormation, Terraform, Terraform Cloud
+    \item \textbf{Containerization:} Docker, Kubernetes, AWS ECS, Helm Charts
+    \item \textbf{Monitoring and Alerting:} Datadog, New Relic, CloudWatch, Opsgenie, Splunk On-Call (VictorOps)
+    \item \textbf{Databases:} MSSQL, MySQL, DynamoDB, Redshift
+    \item \textbf{Web Servers:} Nginx, Apache, IIS
+    \item \textbf{Security:} AWS WAF, AWS IAM, Amazon GuardDuty, AWS KMS, AWS Secrets Manager, Orca
+    \item \textbf{DNS Hosting:} Route53, Cloudflare, GoDaddy
+    \item \textbf{SSO Tools:} IAM Identity Center, Okta
+\end{itemize}
+
+\medskip
+
+\cvsection{Languages}
+
+\cvskill{English}{4}
+\cvskill{Urdu}{5}
+
+\medskip
+
+\end{document}

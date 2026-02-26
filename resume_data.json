@@ -1,0 +1,156 @@
+{
+    "basics": {
+        "name": "Annas Ali",
+        "label": "Senior DevOps Engineer | AWS Certified Professional",
+        "email": "ali.annus02@gmail.com",
+        "phone": "+923018678867",
+        "location": "Lahore, Pakistan",
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "url": "https://www.linkedin.com/in/annas-ali-71842a162/"
+            },
+            {
+                "network": "GitHub",
+                "url": "https://github.com/aliannus2"
+            }
+        ]
+    },
+    "work": [
+        {
+            "company": "Emumba",
+            "position": "DevOps Engineer",
+            "startDate": "December 2025",
+            "endDate": "Present",
+            "location": "Remote",
+            "summary": "Architecting serverless ETL infrastructure and orchestration.",
+            "highlights": [
+                "Architecting serverless ETL infrastructure using AWS Glue Crawlers and Amazon Redshift.",
+                "Executing seamless data migration strategies to Redshift.",
+                "Enhancing system observability with Datadog custom dashboards.",
+                "Managing containerized workloads on Kubernetes."
+            ]
+        },
+        {
+            "company": "TCP Software",
+            "position": "Senior DevOps Engineer",
+            "startDate": "09/2023",
+            "endDate": "12/2025",
+            "location": "Lahore",
+            "summary": "Automated infrastructure and application delivery.",
+            "highlights": [
+                "Automated infrastructure using Terraform, Jenkins, and AWS CodeBuild.",
+                "Implemented Blue/Green deployment strategies on AWS.",
+                "Streamlined containerized application deployments on Amazon ECS.",
+                "Optimized CI/CD performance by 40% through Jenkins master-slave architecture.",
+                "Proactively monitored application performance using New Relic.",
+                "Optimized MSSQL (RDS/EC2) health and performance."
+            ]
+        },
+        {
+            "company": "TkXel",
+            "position": "DevOps Engineer",
+            "startDate": "07/2021",
+            "endDate": "08/2023",
+            "location": "Lahore",
+            "summary": "Managed multi-cloud infrastructure and DevOps pipelines.",
+            "highlights": [
+                "Configured and managed AWS services (EC2, S3, RDS, DynamoDB, Lambda).",
+                "Deployed Docker containers for Node, Next.js, Angular, Flask, PHP, Laravel.",
+                "Implemented IaC using Terraform for multi-region deployment.",
+                "Designed CI/CD pipelines using Jenkins, GitHub Actions, GitLab CI/CD.",
+                "Managed scalable Kubernetes clusters.",
+                "Standardized deployment using Helm charts.",
+                "Implemented GitOps using ArgoCD and Terraform Cloud.",
+                "Managed databases (MySQL, PostgreSQL, DynamoDB).",
+                "Configured monitoring tools (CloudWatch, Datadog, New Relic)."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "Kubernetes Infrastructure Deployment Standardization",
+            "highlights": [
+                "Orchestrated Amazon EKS clusters using Terraform.",
+                "Standardized deployment using Helm Charts and Argo CD.",
+                "Utilized Terraform Helm module.",
+                "Integrated Pod and Node Autoscalers.",
+                "Configured AWS CodePipeline for CI/CD.",
+                "Implemented Istio service mesh.",
+                "Integrated monitoring (Datadog, ELK) and security (Stackrox)."
+            ]
+        },
+        {
+            "name": "Cross-Account AWS Glue Data Pipeline Implementation",
+            "highlights": [
+                "Orchestrated secure, cross-account data pipeline using Terraform.",
+                "Managed S3 buckets for Parquet data.",
+                "Configured AWS Glue Crawlers.",
+                "Designed AWS Glue ETL jobs.",
+                "Implemented IAM policies for cross-account security."
+            ]
+        },
+        {
+            "name": "Serverless Jenkins Setup on AWS Fargate",
+            "highlights": [
+                "Configured Jenkins on AWS Fargate using Terraform.",
+                "Utilized ECS Fargate plugin for build agents.",
+                "Achieved operational efficiency with automated scaling.",
+                "Enhanced reliability with Route 53, CloudWatch, AWS Backup."
+            ]
+        },
+        {
+            "name": "Temporary Elevated Access Management (TEAM)",
+            "highlights": [
+                "Integrated Okta with AWS IAM Identity Center.",
+                "Configured IAM Identity Center permission sets.",
+                "Developed automated workflow for temporary access.",
+                "Leveraged Okta for user provisioning and MFA.",
+                "Implemented logging with CloudTrail and CloudWatch."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ghulam Ishaq Khan Institute (GIKI)",
+            "area": "Computer Engineering",
+            "studyType": "B.Sc.",
+            "startDate": "09/2017",
+            "endDate": "05/2021"
+        }
+    ],
+    "certificates": [
+        {
+            "name": "AWS Certified Professional DevOps Engineer",
+            "date": "2024-02-25",
+            "issuer": "AWS"
+        },
+        {
+            "name": "Certified Kubernetes Administrator",
+            "date": "2023-07-09",
+            "issuer": "Linux Foundation"
+        },
+        {
+            "name": "Hashicorp Certified - Terraform Associate",
+            "issuer": "Hashicorp"
+        }
+    ],
+    "skills": [
+        "AWS Services (EC2, S3, RDS, DynamoDB, Lambda, API Gateway, SNS, SQS, Glue)",
+        "CI/CD (Jenkins, AWS CodePipeline, GitHub Actions, ArgCD)",
+        "Networking (DNS, VPC, Load Balancers, VPN)",
+        "Scripting (Python, Bash, Powershell, Ansible)",
+        "IaC (CloudFormation, Terraform)",
+        "Containerization (Docker, Kubernetes, ECS, Helm)",
+        "Monitoring (Datadog, New Relic, CloudWatch, Opsgenie)",
+        "Databases (MSSQL, MySQL, DynamoDB, Redshift)",
+        "Web Servers (Nginx, Apache, IIS)",
+        "Security (WAF, IAM, GuardDuty, KMS, Secrets Manager, Orca)",
+        "DNS Hosting (Route53, Cloudflare)",
+        "SSO (IAM Identity Center, Okta)"
+    ],
+    "languages": [
+        "English",
+        "Urdu"
+    ]
+}

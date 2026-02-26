@@ -1,0 +1,10 @@
+<svg xmlns="http://www.svg.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Terminal Background -->
+  <rect width="64" height="64" rx="8" fill="#1a1a1a" stroke="#333" stroke-width="2"/>
+  
+  <!-- Terminal Prompt ">_" -->
+  <g font-family="'Courier New', Courier, monospace" font-size="32" font-weight="bold" fill="#00ff00">
+    <text x="8" y="44">&gt;</text>
+    <path d="M 32 44 L 52 44" stroke="#00ff00" stroke-width="4" />
+  </g>
+</svg>
